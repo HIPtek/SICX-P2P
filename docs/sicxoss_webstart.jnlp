@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" href="sicxoss_webstart.jnlp">
+    <information> 
+        <title>SOCX FOSS Peer</title>
+        <vendor>SICX Group</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="sicxoss.jar"
+            main="true" />
+    </resources>
+    <application-desc
+         name="The SICX FOSS Peer Client"
+         main-class="fi.hip.sicxoss.LocalGateway"
+         width="300"
+         height="300">
+     </application-desc>
+     <update check="background"/>
+</jnlp>         

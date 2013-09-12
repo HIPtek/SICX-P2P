@@ -1,0 +1,8 @@
+Thank you for taking the time!
+
+Clicking 'finish' will set up the system. A system tray icon will appear if everything went well.
+
+Mount the webdav share after that either as a volume or as a web folder, and start adding content or create new shared folders. The Admin/ folder contains your public id which you can share with anyone. Just copy the file and email it to anyone interested.
+
+Adding a friend's public id to the 'Users sharing this folder'- subfolder of a share, will invite them to take part in that shared folder. Note however that they will need to have your public id stored in their Admin/Contacts- folder to be able to receive those invitations from you. 
+

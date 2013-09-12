@@ -1,0 +1,81 @@
+
+- add root cert in public profile
+
+- save in-progress downloads
+
+- search for new users
+
+- ACL
+  - get signed 'he is allowed'
+  - otherwise: only 'friend requests' allowed
+
+- cancel streams
+
+- webdav security
+
+- filename.txt/info
+
+  info on modification, when by whom. whether we have the data. when
+  got, when used.
+
+**
+
+
+- use SICX resources.
+  - interface into SICX.. 
+
+- downloader
+  - registering the downloaders somewhere, provide stats..
+  - save the state of the downloaders
+    - but not activity ..
+
+- data id / meta info:
+  - add 'available on my dropbox account @ path xx/yy'- type of information
+  - 'data availability' event
+  - downloaders need to be able to understand these
+
+- datastore: cache, quota handling, obsolete files.
+  - versioning: ..
+
+- upload & streaming.
+  - highjack a connection for a specific amount of bytes
+    - then do a check if there's something else to be got
+    - 'cancel streaming'
+  - when sending, prioritize non-streaming sockets, if available.  
+
+- users:
+  - we need to include the signing cert in our public profile!
+  - 'signer'- type.
+
+- contacts- menu
+
+- invite-info- dialog
+
+- invite- dialog
+
+- nicer OSD popups
+
+- finding users!
+
+- create file vs. update => should be a create-update!
+
+
+- call status update for users when connection to lookup failes / goes online
+
+** 
+
+- check how easy it would be to get SSL for NIO
+
+- share ids: should these be signed?
+
+- all network messages: signed?
+
+- should the share id be included in the events??
+
+- access control in lookup:
+  - to whom do we forward messages
+  - whom is able to register
+
+- logoff problem (not showing). strange. might be some other instance
+  running / connection stuck? or just old version without a proper close!
+

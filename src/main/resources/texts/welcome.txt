@@ -1,0 +1,6 @@
+A short introduction to the SICX OSS Gateway:
+- what
+- why
+- how
+
+This wizard will help you set it up.
